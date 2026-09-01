@@ -120,41 +120,6 @@ Day to day that means Next.js and NestJS for product, PostgreSQL as the source o
 
 ---
 
-## GitHub
-
-<div align="center">
-
-[![Profile views](https://komarev.com/ghpvc/?username=ysadao&label=Profile%20views&color=0ea5e9&style=for-the-badge)](https://github.com/ysadao)
-[![Followers](https://img.shields.io/github/followers/ysadao?style=for-the-badge&logo=github&label=Followers&color=24292f)](https://github.com/ysadao?tab=followers)
-[![Stars](https://img.shields.io/github/stars/ysadao?affiliations=OWNER&style=for-the-badge&logo=github&label=Stars&color=e3b341)](https://github.com/ysadao?tab=repositories)
-
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ysadao&theme=flat&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8#gh-light-mode-only" alt="GitHub trophies" />
-  <img src="https://github-profile-trophy.vercel.app/?username=ysadao&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8#gh-dark-mode-only" alt="GitHub trophies" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.shion.dev/api?username=ysadao&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&theme=default#gh-light-mode-only" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.shion.dev/api?username=ysadao&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&theme=tokyonight#gh-dark-mode-only" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=ysadao&layout=compact&count_private=true&hide_border=true&langs_count=8&theme=default#gh-light-mode-only" alt="Top languages" />
-  <img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=ysadao&layout=compact&count_private=true&hide_border=true&langs_count=8&theme=tokyonight#gh-dark-mode-only" alt="Top languages" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=ysadao&hide_border=true&theme=default#gh-light-mode-only" alt="GitHub streak" />
-  <img src="https://streak-stats.demolab.com?user=ysadao&hide_border=true&theme=tokyonight#gh-dark-mode-only" alt="GitHub streak" />
-</div>
-
----
-
 ## Currently
 
 - Multi-tenant SaaS APIs (NestJS, Prisma, PostgreSQL, Stripe)
