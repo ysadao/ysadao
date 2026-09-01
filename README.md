@@ -45,22 +45,72 @@ Day to day that means Next.js and NestJS for product, PostgreSQL as the source o
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
 </p>
 
-| Layer | Tools |
-| :--- | :--- |
-| **Languages** | TypeScript, JavaScript, Python, Go, Rust, Solidity, SQL, Bash |
-| **Frontend** | React, Next.js, Vue, Nuxt, Tailwind CSS, shadcn/ui, Framer Motion |
-| **Mobile / Desktop** | React Native, Expo, Electron |
-| **Runtime & APIs** | Node.js, NestJS, Express, Fastify, FastAPI, GraphQL, tRPC, gRPC, REST |
-| **Data** | PostgreSQL, MySQL, MongoDB, Redis, Prisma, TypeORM, Drizzle, Elasticsearch |
-| **Auth & identity** | JWT, OAuth 2.0, OpenID Connect, Passport, NextAuth, bcrypt, RBAC |
-| **Messaging** | RabbitMQ, Kafka, Redis Pub/Sub, webhooks, BullMQ |
-| **Cloud** | AWS, GCP, Cloudflare, Vercel, Railway |
-| **DevOps** | Docker, Docker Compose, Kubernetes, Nginx, GitHub Actions, Terraform, Linux |
-| **Observability** | OpenTelemetry, Prometheus, Grafana, Sentry, structured logging |
-| **Web3** | Solidity, Ethers.js, viem, wagmi, Hardhat, Foundry, Solana/web3.js, Anchor |
-| **AI** | Python, FastAPI, OpenAI API, LangChain, vector DBs (pgvector, Pinecone) |
-| **Quality** | Jest, Vitest, Playwright, ESLint, Prettier, class-validator, pytest |
-| **Payments** | Stripe, webhooks, idempotent billing flows |
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">Layer</th>
+      <th align="center">Tools</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Languages</strong></td>
+      <td align="center">TypeScript, JavaScript, Python, Go, Rust, Solidity, SQL, Bash</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Frontend</strong></td>
+      <td align="center">React, Next.js, Vue, Nuxt, Tailwind CSS, shadcn/ui, Framer Motion</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Mobile / Desktop</strong></td>
+      <td align="center">React Native, Expo, Electron</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Runtime &amp; APIs</strong></td>
+      <td align="center">Node.js, NestJS, Express, Fastify, FastAPI, GraphQL, tRPC, gRPC, REST</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Data</strong></td>
+      <td align="center">PostgreSQL, MySQL, MongoDB, Redis, Prisma, TypeORM, Drizzle, Elasticsearch</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Auth &amp; identity</strong></td>
+      <td align="center">JWT, OAuth 2.0, OpenID Connect, Passport, NextAuth, bcrypt, RBAC</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Messaging</strong></td>
+      <td align="center">RabbitMQ, Kafka, Redis Pub/Sub, webhooks, BullMQ</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Cloud</strong></td>
+      <td align="center">AWS, GCP, Cloudflare, Vercel, Railway</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>DevOps</strong></td>
+      <td align="center">Docker, Docker Compose, Kubernetes, Nginx, GitHub Actions, Terraform, Linux</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Observability</strong></td>
+      <td align="center">OpenTelemetry, Prometheus, Grafana, Sentry, structured logging</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Web3</strong></td>
+      <td align="center">Solidity, Ethers.js, viem, wagmi, Hardhat, Foundry, Solana/web3.js, Anchor</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>AI</strong></td>
+      <td align="center">Python, FastAPI, OpenAI API, LangChain, vector DBs (pgvector, Pinecone)</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Quality</strong></td>
+      <td align="center">Jest, Vitest, Playwright, ESLint, Prettier, class-validator, pytest</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Payments</strong></td>
+      <td align="center">Stripe, webhooks, idempotent billing flows</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
