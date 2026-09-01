@@ -120,15 +120,6 @@ Day to day that means Next.js and NestJS for product, PostgreSQL as the source o
 
 ---
 
-## Currently
-
-- Multi-tenant SaaS APIs (NestJS, Prisma, PostgreSQL, Stripe)
-- Product UIs in Next.js with JWT / OAuth identity
-- Solana and EVM surfaces — dApps, indexers, DeFi dashboards
-- AI automation with FastAPI, LangChain, and pgvector
-- Docker, Kubernetes, and GitHub Actions so deploys stay repeatable
-
----
 
 <div align="center">
 
