@@ -6,6 +6,16 @@
 
 Shipping web products, on-chain systems, and automation that hold up in production.
 
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-ysadao-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ysadao)
+[![Profile views](https://komarev.com/ghpvc/?username=ysadao&label=Profile%20views&color=0ea5e9&style=for-the-badge)](https://github.com/ysadao)
+[![Followers](https://img.shields.io/github/followers/ysadao?style=for-the-badge&logo=github&label=Followers&color=24292f)](https://github.com/ysadao)
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=ts,js,py,go,rust,react,nextjs,vue,nodejs,nestjs,express,fastapi,postgres,redis,prisma,docker,kubernetes,aws,gcp,linux,githubactions,terraform,solidity&perline=12" alt="Tech stack" />
+
 </div>
 
 ---
@@ -25,16 +35,14 @@ Day to day that means Next.js and NestJS for product, PostgreSQL as the source o
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,go,rust,solidity,bash,react,nextjs,vue,nuxtjs,tailwind&perline=12" alt="Languages and frontend" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,fastapi,graphql,postgres,mysql,mongodb,redis,prisma,elasticsearch,electron&perline=12" alt="APIs and data" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,nginx,githubactions,git,terraform,aws,gcp,cloudflare,vercel,ansible&perline=12" alt="DevOps and cloud" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=kafka,rabbitmq,prometheus,grafana,sentry,jest,vitest,github,html,css,vite,webpack&perline=12" alt="Infra and tooling" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
+  <img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white" alt="Solana" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
 </p>
 
 | Layer | Tools |
