@@ -6,14 +6,6 @@
 
 Building APIs and delivery pipelines that stay boring in production.
 
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-ysadao-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ysadao)
-[![Profile views](https://komarev.com/ghpvc/?username=ysadao&label=Profile%20views&color=0ea5e9&style=for-the-badge)](https://github.com/ysadao)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://nestjs.com/)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-
 </div>
 
 ---
