@@ -2,9 +2,9 @@
 
 # Yamashita Sadao
 
-**Backend engineer · DevOps · Full-stack TypeScript**
+**Full-stack engineer · Web3 · AI · DevOps**
 
-Building APIs and delivery pipelines that stay boring in production.
+Shipping web products, on-chain systems, and automation that hold up in production.
 
 </div>
 
@@ -12,9 +12,9 @@ Building APIs and delivery pipelines that stay boring in production.
 
 ## About
 
-I design and ship **server-side systems** with a DevOps bias: typed APIs, explicit auth, PostgreSQL as the source of truth, and the same image running locally as in CI.
+I work across **web, chain, and infrastructure**: typed product UIs, multi-tenant APIs, Solidity/Solana surfaces, and AI services — with auth, data, and delivery treated as first-class features.
 
-Day to day that means NestJS modules, Prisma schemas, JWT session flows, Docker Compose stacks, and GitHub Actions that fail loudly instead of deploying guesses.
+Day to day that means Next.js and NestJS for product, PostgreSQL as the source of truth, FastAPI for automation, and Docker / GitHub Actions so local, CI, and production stay close.
 
 - Prefer **clear module boundaries** over clever abstractions
 - Treat **auth, validation, and migrations** as product features
@@ -45,34 +45,43 @@ Day to day that means NestJS modules, Prisma schemas, JWT session flows, Docker 
 
 ## Focus
 
-**APIs.** Resource design, validation, error contracts, and auth that an actual client can trust.
+**Web.** Next.js and NestJS products — resource design, validation, error contracts, and auth a real client can trust.
 
-**Data.** Schema-first models, migrations you can replay, queries that stay inside the ORM until they shouldn't.
+**Data.** Schema-first models, replayable migrations, Postgres as source of truth, Redis and search when the workload needs them.
 
-**Delivery.** Containerized Node services, Compose for local parity, CI that builds the same artifact you ship.
+**Chain.** Solidity and Solana dApps, indexers, and DeFi dashboards with explicit wallet and contract boundaries.
+
+**AI.** FastAPI services, LLM tooling, and RAG over real application data — not prompt demos.
+
+**Delivery.** Docker, Compose, Kubernetes, Terraform, and CI that builds the same artifact you ship.
 
 ---
 
 ## GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ysadao&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&include_all_commits=true" alt="GitHub stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ysadao&layout=compact&count_private=true&hide_border=true&theme=tokyonight&langs_count=8" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.shion.dev/api?username=ysadao&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&theme=default#gh-light-mode-only" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.shion.dev/api?username=ysadao&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&theme=tokyonight#gh-dark-mode-only" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=ysadao&layout=compact&count_private=true&hide_border=true&langs_count=8&theme=default#gh-light-mode-only" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=ysadao&layout=compact&count_private=true&hide_border=true&langs_count=8&theme=tokyonight#gh-dark-mode-only" alt="Top languages" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ysadao&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=ysadao&hide_border=true&theme=default#gh-light-mode-only" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=ysadao&hide_border=true&theme=tokyonight#gh-dark-mode-only" alt="GitHub streak" />
 </div>
 
 ---
 
 ## Currently
 
-- Hardening NestJS + Prisma services (auth, orgs, PostgreSQL)
-- Tightening Docker and GitHub Actions so deploys are repeatable
-- Writing down architecture decisions instead of keeping them in chat history
+- Multi-tenant SaaS APIs (NestJS, Prisma, PostgreSQL, Stripe)
+- Product UIs in Next.js with JWT / OAuth identity
+- Solana and EVM surfaces — dApps, indexers, DeFi dashboards
+- AI automation with FastAPI, LangChain, and pgvector
+- Docker, Kubernetes, and GitHub Actions so deploys stay repeatable
 
 ---
 
@@ -80,6 +89,6 @@ Day to day that means NestJS modules, Prisma schemas, JWT session flows, Docker 
 
 **[github.com/ysadao](https://github.com/ysadao)**
 
-<sub>TypeScript · NestJS · PostgreSQL · Docker</sub>
+<sub>TypeScript · Next.js · NestJS · Solana · FastAPI · Docker</sub>
 
 </div>
