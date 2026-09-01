@@ -24,40 +24,22 @@ Day to day that means NestJS modules, Prisma schemas, JWT session flows, Docker 
 
 ## Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,nestjs,express,prisma,postgres,docker,linux,nginx,githubactions,git" alt="Tech stack" />
-</p>
-
 | Layer | Tools |
 | :--- | :--- |
-| **Languages** | TypeScript, JavaScript, SQL |
-| **Runtime & APIs** | Node.js, NestJS, Express |
-| **Data** | PostgreSQL, Prisma |
-| **Auth** | JWT, Passport, bcrypt |
-| **Quality** | Jest, ESLint, Prettier, class-validator |
-| **Delivery** | Docker, Docker Compose, GitHub Actions |
-
----
-
-## How I build
-
-```mermaid
-flowchart LR
-  A[Client] --> B[NestJS API]
-  B --> C[JWT / Guards]
-  B --> D[Prisma]
-  D --> E[(PostgreSQL)]
-  B --> F[Docker image]
-  F --> G[Compose / CI]
-```
-
-| Concern | Default |
-| :--- | :--- |
-| HTTP surface | NestJS modules, DTOs, `class-validator` |
-| Persistence | Prisma + PostgreSQL, migrations in source control |
-| Identity | Passport JWT, hashed secrets, no header-spoofed user ids |
-| Runtime | Multi-stage Dockerfiles, Compose for the full stack |
-| Pipeline | GitHub Actions on every push: lint, test, image build |
+| **Languages** | TypeScript, JavaScript, Python, Go, Rust, Solidity, SQL, Bash |
+| **Frontend** | React, Next.js, Vue, Nuxt, Tailwind CSS, shadcn/ui, Framer Motion |
+| **Mobile / Desktop** | React Native, Expo, Electron |
+| **Runtime & APIs** | Node.js, NestJS, Express, Fastify, FastAPI, GraphQL, tRPC, gRPC, REST |
+| **Data** | PostgreSQL, MySQL, MongoDB, Redis, Prisma, TypeORM, Drizzle, Elasticsearch |
+| **Auth & identity** | JWT, OAuth 2.0, OpenID Connect, Passport, NextAuth, bcrypt, RBAC |
+| **Messaging** | RabbitMQ, Kafka, Redis Pub/Sub, webhooks, BullMQ |
+| **Cloud** | AWS, GCP, Cloudflare, Vercel, Railway |
+| **DevOps** | Docker, Docker Compose, Kubernetes, Nginx, GitHub Actions, Terraform, Linux |
+| **Observability** | OpenTelemetry, Prometheus, Grafana, Sentry, structured logging |
+| **Web3** | Solidity, Ethers.js, viem, wagmi, Hardhat, Foundry, Solana/web3.js, Anchor |
+| **AI** | Python, FastAPI, OpenAI API, LangChain, vector DBs (pgvector, Pinecone) |
+| **Quality** | Jest, Vitest, Playwright, ESLint, Prettier, class-validator, pytest |
+| **Payments** | Stripe, webhooks, idempotent billing flows |
 
 ---
 
