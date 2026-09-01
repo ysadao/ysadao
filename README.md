@@ -24,6 +24,19 @@ Day to day that means Next.js and NestJS for product, PostgreSQL as the source o
 
 ## Stack
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,py,go,rust,solidity,bash,react,nextjs,vue,nuxtjs,tailwind&perline=12" alt="Languages and frontend" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,fastapi,graphql,postgres,mysql,mongodb,redis,prisma,elasticsearch,electron&perline=12" alt="APIs and data" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,nginx,githubactions,git,terraform,aws,gcp,cloudflare,vercel,ansible&perline=12" alt="DevOps and cloud" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=kafka,rabbitmq,prometheus,grafana,sentry,jest,vitest,github,html,css,vite,webpack&perline=12" alt="Infra and tooling" />
+</p>
+
 | Layer | Tools |
 | :--- | :--- |
 | **Languages** | TypeScript, JavaScript, Python, Go, Rust, Solidity, SQL, Bash |
