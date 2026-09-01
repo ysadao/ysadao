@@ -117,14 +117,3 @@ Day to day that means Next.js and NestJS for product, PostgreSQL as the source o
 **AI.** FastAPI services, LLM tooling, and RAG over real application data — not prompt demos.
 
 **Delivery.** Docker, Compose, Kubernetes, Terraform, and CI that builds the same artifact you ship.
-
----
-
-
-<div align="center">
-
-**[github.com/ysadao](https://github.com/ysadao)**
-
-<sub>TypeScript · Next.js · NestJS · Solana · FastAPI · Docker</sub>
-
-</div>
