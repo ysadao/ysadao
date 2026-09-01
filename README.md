@@ -34,15 +34,20 @@ Public systems that show how I design the hard parts of a product.
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,nestjs,postgres,redis,python,docker,githubactions" alt="Core stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,nodejs,nestjs,express,fastapi,graphql,postgres,redis&perline=12" alt="Languages, product, and data" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=prisma,docker,githubactions,aws,linux,nginx,solidity,git&perline=12" alt="Delivery and chain" />
 </p>
 
 | Layer | Tools |
 | --- | --- |
-| Product | TypeScript, React, Next.js, Node.js, NestJS / Express |
+| Languages | TypeScript, JavaScript, Python, SQL, Solidity |
+| Product | React, Next.js, Tailwind CSS |
+| APIs | Node.js, NestJS, Express, FastAPI, GraphQL, REST |
 | Data | PostgreSQL, Redis, Prisma |
+| Auth | JWT, OAuth 2.0, RBAC |
 | Chain | Solana (web3.js, Anchor), EVM (viem, wagmi) |
-| AI | FastAPI, workflow runners, model provider behind an interface |
-| Delivery | Docker, Compose, GitHub Actions |
+| Delivery | Docker, GitHub Actions, AWS, Nginx, Linux |
 
 Day to day: Next.js and NestJS for product, PostgreSQL as source of truth, FastAPI when automation is its own service, Docker and GitHub Actions so the same artifact moves from laptop to CI.
