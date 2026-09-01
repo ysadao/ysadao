@@ -2,118 +2,67 @@
 
 # Yamashita Sadao
 
-**Full-stack engineer · Web3 · AI · DevOps**
+**I ship the parts of a product that cannot be a prototype.**
 
-Shipping web products, on-chain systems, and automation that hold up in production.
+Identity. Tenancy. Payments. On-chain surfaces. AI that runs on your data — not a chat window.
+
+[![Available](https://img.shields.io/badge/Status-Available_for_contract-0ea5e9?style=for-the-badge)](https://github.com/ysadao)
+[![GitHub](https://img.shields.io/badge/GitHub-ysadao-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ysadao)
+
+<sub>TypeScript · React · Node · Solana · FastAPI · Docker</sub>
 
 </div>
 
 ---
 
-## About
+A client does not hire a list of logos. They hire someone who can own **auth, money, isolation, and delivery** without a six-person backend team.
 
-I work across **web, chain, and infrastructure**: typed product UIs, multi-tenant APIs, Solidity/Solana surfaces, and AI services — with auth, data, and delivery treated as first-class features.
+Every system below is public. Clone it, run it, read the architecture. That is the interview.
 
-Day to day that means Next.js and NestJS for product, PostgreSQL as the source of truth, FastAPI for automation, and Docker / GitHub Actions so local, CI, and production stay close.
+## Hire me when you need
 
-- Prefer **clear module boundaries** over clever abstractions
-- Treat **auth, validation, and migrations** as product features
-- Keep **local, CI, and production** as close as the Dockerfile allows
+| Situation | What you get |
+| --- | --- |
+| A SaaS that must isolate customers | Org RBAC, JWT + API keys, audit log, tenant-scoped data |
+| Money moving more than once | Payment intents, **required** idempotency, HMAC webhooks, ledger |
+| A Solana / DeFi product surface | Wallet UX, SPL flows, indexer APIs, portfolio / desk UI |
+| Internal AI that ops can actually run | Workflows, queue, webhooks, usage, operator UI |
 
----
+## Open the work
 
-## Stack
+Six systems. Tests, Docker, and CI in each repo.
+
+| Repo | What a client should notice |
+| --- | --- |
+| **[modern-saas-platform](https://github.com/ysadao/modern-saas-platform)** | Multi-tenant dashboard — register, orgs, roles, isolated projects, audit trail |
+| **[payment-service](https://github.com/ysadao/payment-service)** | Charges you can retry safely — idempotency keys, signed provider webhooks, immutable ledger |
+| **[identity-access-service](https://github.com/ysadao/identity-access-service)** | Sessions that behave — access + hashed refresh rotation, permissions matrix, API keys |
+| **[solana-dapp](https://github.com/ysadao/solana-dapp)** | Wallet surface — SOL / SPL balances, transfers, a clear demo vs live-cluster boundary |
+| **[ai-automation-platform](https://github.com/ysadao/ai-automation-platform)** | Workflow runner — templates, worker, completion webhooks, operator UI (provider-swappable) |
+| **[defi-trading-dashboard](https://github.com/ysadao/defi-trading-dashboard)** | Desk UI — portfolio, pools, tape, P&amp;L — the product shape a trader actually looks at |
+
+Also public: [multi-tenant-api](https://github.com/ysadao/multi-tenant-api) · [webhook-engine](https://github.com/ysadao/webhook-engine) · [notification-service](https://github.com/ysadao/notification-service) · [blockchain-indexer](https://github.com/ysadao/blockchain-indexer) · [solana-token-platform](https://github.com/ysadao/solana-token-platform) · [web3-portfolio-tracker](https://github.com/ysadao/web3-portfolio-tracker)
+
+## How I build
+
+- **Trust is a feature.** Auth, validation, tenancy, and idempotency land in v1 — not “later.”
+- **Boundaries stay explicit.** Tenant vs tenant. App vs wallet vs contract. Demo vs live cluster.
+- **You can run what I send.** Docker Compose, GitHub Actions, and a README that tells you the ports.
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,go,rust,solidity,bash,react,nextjs,vue,nuxtjs,tailwind&perline=12" alt="Languages and frontend" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,fastapi,graphql,postgres,mysql,mongodb,redis,prisma,elasticsearch,electron&perline=12" alt="APIs and data" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,nginx,githubactions,git,terraform,aws,gcp,cloudflare,vercel,ansible&perline=12" alt="DevOps and cloud" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=kafka,rabbitmq,prometheus,grafana,sentry,jest,vitest,github,html,css,vite,webpack&perline=12" alt="Infra and tooling" />
+  <img src="https://skillicons.dev/icons?i=ts,react,nodejs,postgres,redis,python,docker,githubactions" alt="Core stack" />
 </p>
 
-<table align="center">
-  <thead>
-    <tr>
-      <th align="center">Layer</th>
-      <th align="center">Tools</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><strong>Languages</strong></td>
-      <td align="center">TypeScript, JavaScript, Python, Go, Rust, Solidity, SQL, Bash</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Frontend</strong></td>
-      <td align="center">React, Next.js, Vue, Nuxt, Tailwind CSS, shadcn/ui, Framer Motion</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Mobile / Desktop</strong></td>
-      <td align="center">React Native, Expo, Electron</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Runtime &amp; APIs</strong></td>
-      <td align="center">Node.js, NestJS, Express, Fastify, FastAPI, GraphQL, tRPC, gRPC, REST</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Data</strong></td>
-      <td align="center">PostgreSQL, MySQL, MongoDB, Redis, Prisma, TypeORM, Drizzle, Elasticsearch</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Auth &amp; identity</strong></td>
-      <td align="center">JWT, OAuth 2.0, OpenID Connect, Passport, NextAuth, bcrypt, RBAC</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Messaging</strong></td>
-      <td align="center">RabbitMQ, Kafka, Redis Pub/Sub, webhooks, BullMQ</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Cloud</strong></td>
-      <td align="center">AWS, GCP, Cloudflare, Vercel, Railway</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>DevOps</strong></td>
-      <td align="center">Docker, Docker Compose, Kubernetes, Nginx, GitHub Actions, Terraform, Linux</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Observability</strong></td>
-      <td align="center">OpenTelemetry, Prometheus, Grafana, Sentry, structured logging</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Web3</strong></td>
-      <td align="center">Solidity, Ethers.js, viem, wagmi, Hardhat, Foundry, Solana/web3.js, Anchor</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>AI</strong></td>
-      <td align="center">Python, FastAPI, OpenAI API, LangChain, vector DBs (pgvector, Pinecone)</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Quality</strong></td>
-      <td align="center">Jest, Vitest, Playwright, ESLint, Prettier, class-validator, pytest</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Payments</strong></td>
-      <td align="center">Stripe, webhooks, idempotent billing flows</td>
-    </tr>
-  </tbody>
-</table>
+| Layer | What I reach for |
+| --- | --- |
+| Product | TypeScript, React, Node (Express / Nest), Next.js when the product needs it |
+| Data | PostgreSQL as source of truth, Redis when the workload needs a cache or queue |
+| Chain | Solana (web3.js / Anchor patterns), EVM (viem / wagmi) with wallet and indexer boundaries |
+| AI | FastAPI services, workflow runners, webhooks — model provider behind an interface |
+| Delivery | Docker, Compose, GitHub Actions — same artifact from laptop to CI |
 
----
+## Start
 
-## Focus
+If the work above matches the product you are trying to ship, open a GitHub issue on any repo or message **[ysadao](https://github.com/ysadao)**.
 
-**Web.** Next.js and NestJS products — resource design, validation, error contracts, and auth a real client can trust.
-
-**Data.** Schema-first models, replayable migrations, Postgres as source of truth, Redis and search when the workload needs them.
-
-**Chain.** Solidity and Solana dApps, indexers, and DeFi dashboards with explicit wallet and contract boundaries.
-
-**AI.** FastAPI services, LLM tooling, and RAG over real application data — not prompt demos.
-
-**Delivery.** Docker, Compose, Kubernetes, Terraform, and CI that builds the same artifact you ship.
+I take **contract / freelance** engagements: greenfield product backends, payment and webhook reliability, Solana surfaces, and internal AI runners.
