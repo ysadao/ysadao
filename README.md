@@ -34,15 +34,10 @@ Public systems that show how I design the hard parts of a product.
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,nodejs,nestjs,express,fastapi,graphql,postgres,redis&perline=12" alt="Languages, product, and data" />
+  <img src="https://skillicons.dev/icons?i=ts,js,py,php,react,nextjs,nodejs,nestjs,express,fastapi,graphql,postgres" alt="Languages, product, and APIs" />
 </p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,wordpress" alt="PHP, Laravel, and WordPress" />
-  <img src="badges/codeigniter.svg" width="48" height="48" alt="CodeIgniter" />
-  <img src="badges/magento.svg" width="48" height="48" alt="Magento" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=prisma,docker,githubactions,aws,linux,nginx,solidity,git&perline=12" alt="Delivery and chain" />
+  <img src="badges/stack-row2.svg" alt="PHP, data, and delivery" />
 </p>
 
 | Layer | Tools |
