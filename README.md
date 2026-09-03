@@ -37,17 +37,22 @@ Public systems that show how I design the hard parts of a product.
   <img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,nodejs,nestjs,express,fastapi,graphql,postgres,redis&perline=12" alt="Languages, product, and data" />
 </p>
 <p align="center">
+  <img src="https://skillicons.dev/icons?i=php,laravel,wordpress" alt="PHP, Laravel, and WordPress" />
+  <img src="badges/codeigniter.svg" width="48" height="48" alt="CodeIgniter" />
+  <img src="badges/magento.svg" width="48" height="48" alt="Magento" />
+</p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=prisma,docker,githubactions,aws,linux,nginx,solidity,git&perline=12" alt="Delivery and chain" />
 </p>
 
 | Layer | Tools |
 | --- | --- |
-| Languages | TypeScript, JavaScript, Python, SQL, Solidity |
-| Product | React, Next.js, Tailwind CSS |
-| APIs | Node.js, NestJS, Express, FastAPI, GraphQL, REST |
+| Languages | TypeScript, JavaScript, Python, PHP, SQL, Solidity |
+| Product | React, Next.js, Tailwind CSS, WordPress, Magento |
+| APIs | Node.js, NestJS, Express, FastAPI, Laravel, CodeIgniter, GraphQL, REST |
 | Data | PostgreSQL, Redis, Prisma |
 | Auth | JWT, OAuth 2.0, RBAC |
 | Chain | Solana (web3.js, Anchor), EVM (viem, wagmi) |
 | Delivery | Docker, GitHub Actions, AWS, Nginx, Linux |
 
-Day to day: Next.js and NestJS for product, PostgreSQL as source of truth, FastAPI when automation is its own service, Docker and GitHub Actions so the same artifact moves from laptop to CI.
+Day to day: Next.js and NestJS for product, Laravel / CodeIgniter or WordPress / Magento when the stack is PHP, PostgreSQL as source of truth, FastAPI when automation is its own service, Docker and GitHub Actions so the same artifact moves from laptop to CI.
