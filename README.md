@@ -20,16 +20,14 @@ I have spent **10+ years** shipping full-stack systems: typed product UIs, multi
 
 ## Selected work
 
-Public systems that show how I design the hard parts of a product.
+Public reference systems that show how I design the hard parts of a product. Start with these two.
 
 | System | What it demonstrates |
 | --- | --- |
-| [modern-saas-platform](https://github.com/ysadao/modern-saas-platform) | Multi-tenant dashboard — JWT, org RBAC, isolated projects, audit log |
-| [payment-service](https://github.com/ysadao/payment-service) | Payment intents, required idempotency, HMAC webhooks, ledger |
-| [identity-access-service](https://github.com/ysadao/identity-access-service) | Sessions, refresh rotation, permissions matrix, API keys |
-| [solana-dapp](https://github.com/ysadao/solana-dapp) | Wallet surface for SOL / SPL balances and transfers |
-| [ai-automation-platform](https://github.com/ysadao/ai-automation-platform) | Workflow runner — templates, worker, webhooks, operator UI |
-| [blockchain-indexer](https://github.com/ysadao/blockchain-indexer) | Backfill and query APIs for wallet and transaction history |
+| [modern-saas-platform](https://github.com/ysadao/modern-saas-platform) | Multi-tenant SaaS — RBAC domain policy, session-family revoke, Postgres, audit-in-txn |
+| [payment-service](https://github.com/ysadao/payment-service) | Payments desk — state machine, idempotent captures, HMAC webhooks, double-entry ledger |
+
+Each README has a **For reviewers** section with the suggested reading order (architecture → domain → services → tests).
 
 ## Stack
 
