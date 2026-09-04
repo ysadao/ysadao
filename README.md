@@ -20,14 +20,15 @@ I have spent **10+ years** shipping full-stack systems: typed product UIs, multi
 
 ## Selected work
 
-Public reference systems that show how I design the hard parts of a product. Start with these two.
+Public reference systems that show how I design the hard parts of a product.
 
 | System | What it demonstrates |
 | --- | --- |
 | [modern-saas-platform](https://github.com/ysadao/modern-saas-platform) | Multi-tenant SaaS — RBAC domain policy, session-family revoke, Postgres, audit-in-txn |
 | [payment-service](https://github.com/ysadao/payment-service) | Payments desk — state machine, idempotent captures, HMAC webhooks, double-entry ledger |
+| [ai-automation-platform](https://github.com/ysadao/ai-automation-platform) | Workflow runner — templates, background worker, mock AI, operator UI |
 
-Each README has a **For reviewers** section with the suggested reading order (architecture → domain → services → tests).
+Harbor and Ledger READMEs include a **For reviewers** section with the suggested reading order.
 
 ## Stack
 
